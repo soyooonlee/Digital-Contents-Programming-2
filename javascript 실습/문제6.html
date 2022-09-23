@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Basic</title>
+    <script>
+        window.onload=function() {
+            var headers=document.querySelectorAll('h1');
+
+            headers.forEach((header, index) => 
+                header.innerHTML = `Header - ${index + 1}`
+            )
+
+            headers[0].style.color='white';
+            headers[0].style.background='black';
+        };
+    </script>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+</body>
+</html>
