@@ -1,4 +1,4 @@
-# Digital-Contents-Programming-3
+# Digital Contents Programming 3
 
 html 실습과제
 javascript 실습과제
